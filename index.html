@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="shortcut icon" type="image/png" href="meta/favicon/favicon.png" />
+</head>
+
+<body>
+  <header></header>
+  <main class="main">
+
+    <!-- logo -->
+    <div class="logo">
+
+      <a href="https://www.aluracursos.com/" target="blank"><img src="images/logo.png" alt="" /></a>
+
+    </div>
+
+    <!-- logo joven -->
+    <div class="rectangle-container"></div>
+    <img src="images/joven.png" alt="imagen hombre buscando" class="muneco-container active" />
+
+
+    <!-- casilla texto -->
+    <div class="main-text-container active">
+      <div class="text-container">
+        <p class="none-text">Ningún mensaje fue encontrado</p>
+      </div>
+      <div class="second-text-container">
+        <p class="add-text">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </p>
+      </div>
+    </div>
+
+    <textarea name="desencriptar-texto" class="text-area-dec" id="msg" cols="30"
+      rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.</textarea>
+
+    <!-- copy btn -->
+    <button class="btn-3" type="button" id="btn-copy">
+      <div class="copy-text">Copiar</div>
+    </button>
+    <!-- input text -->
+    <textarea name="text-area-input" class="text-input" id="input-txt" cols="20" rows="30"
+      placeholder="Ingrese el texto aqui">
+</textarea>
+
+    <div class="info-text">
+      <p class="info-text-texto">
+        <img src="images/bi_exclamation-circle-fill.png" alt="" />Solo letras minúsculas,sin acentos,numeros o
+        caracteres especiales.
+      </p>
+    </div>
+
+    <div class="button-container">
+      <!-- encriptar btn -->
+      <button class="btn-1" type="button" id="btn-encriptar" />
+      <div class="btn-1-text">Encriptar</div></button>
+      <!-- desencriptar btn -->
+      <button class="btn-2" type="button" id="btn-desencriptar" />
+      <div class="btn-2-text">Desencriptar</div></button>
+    </div>
+  </main>
+  <footer>
+    <p class="pie">Designed by Hansel I. R. @2023</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
